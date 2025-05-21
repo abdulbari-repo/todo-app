@@ -1,0 +1,63 @@
+.editTask{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #ffffff;
+}
+
+.editTask-header{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    gap: 10px;
+    background-color: #9395D3;
+    padding: 20px;
+    color: white;
+}
+
+.editTask-form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+}
+
+.editTask-form input{
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+.editTask-form input:focus{
+    outline: none;
+    border-bottom: 1px solid #9395D3;
+}
+
+.editTask-form textarea{
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+.editTask-form textarea:focus{
+    outline: none;
+    border-bottom: 1px solid #9395D3;
+}
+
+.editTask-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.editTask-buttons button{
+    padding: 10px;
+    background-color: #9395D3;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.editTask-buttons button:hover{
+    background-color: #7a7d9c;
+}

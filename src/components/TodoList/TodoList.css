@@ -1,0 +1,75 @@
+.todo-list {
+  background-color: #d6d7ef;
+  padding: 20px;
+  height: 100%;
+  min-height: 788px;
+}
+
+.toDoList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(205, 115, 204);
+  margin: 20px;
+}
+
+.toDoList-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 10px;
+}
+
+.toDoList-header h4 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #9395d3;
+}
+
+.toDoList-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.toDoList-body img {
+  width: 30px;
+  height: 30px;
+}
+
+.addList {
+  position: fixed;
+  bottom: 0;
+  margin: 30px;
+  margin-left: auto;
+  right: 20px;
+  background-color: #9395d3;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px rgb(205, 115, 204);
+  transition: bottom 0.3s ease;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.paragraph {
+  font-size: 16px;
+  color: #9395d3;
+  font-weight: bold;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(205, 115, 204);
+  margin: 20px;
+}

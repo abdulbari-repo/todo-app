@@ -1,0 +1,54 @@
+.addTask{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #ffffff;
+}
+
+.addTask-header{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    gap: 10px;
+    background-color: #9395D3;
+    padding: 20px;
+    color: white;
+}
+
+.addTask-form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+}
+
+.addTask-form input{
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+.addTask-form input:focus{
+    outline: none;
+    border-bottom: 1px solid #9395D3;
+}
+
+.addTask-form textarea{
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+.addTask-form textarea:focus{
+    outline: none;
+    border-bottom: 1px solid #9395D3;
+}
+
+.addTask-form button{
+    padding: 10px;
+    background-color: #9395D3;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
